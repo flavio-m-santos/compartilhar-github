@@ -9,5 +9,3 @@ while escolha != 's':
     sort = random.choice(lados)
     print('O dado caiu em : ', sort)
 
-    '''if escolha != 'j':
-        print(opcao)'''
