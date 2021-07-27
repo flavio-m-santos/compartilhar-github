@@ -8,4 +8,3 @@ while escolha != 's':
     lados = ['lado 1', 'lado 2', 'lado 3', 'lado 4', 'lado 5', 'lado 6']
     sort = random.choice(lados)
     print('O dado caiu em : ', sort)
-
