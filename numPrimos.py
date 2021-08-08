@@ -20,3 +20,9 @@ for i in num:
     if (i % 7) != 0:
         primos.append(i)
 print('numeros primos:', sorted(primos))
+
+if numero in primos:
+    print('O número', numero, 'é primo')
+
+else:
+    print('O número', numero, 'não é primo')
