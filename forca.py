@@ -119,7 +119,6 @@ while (v < contp) or (resu == res) == True:
 
     letra = input("Digite uma letra: ")
     print('')
-    print(v == 6)
 
     if (letra == res[0]) and (letra == res[2]) and (letra == res[4]) and (letra == res[6]):
 
@@ -360,7 +359,7 @@ while (v < contp) or (resu == res) == True:
         print('/ \  |')
         print('     |')
         print('=========')
-        print('Você errou sete letras : ')
+        print('Você errou a palavra: ')
         for er in erro:
             print(f"{bcolors.FAIL}" +er + f"{bcolors.RESET}")
 
